@@ -17,3 +17,8 @@ class Solution(object):
                 operate.append(char_list[s[i]])
         operate.append(char_list[s[-1]])
         return sum(operate)
+
+
+calling_class = Solution()
+result = calling_class.romanToInt("IIV")
+print(result)
